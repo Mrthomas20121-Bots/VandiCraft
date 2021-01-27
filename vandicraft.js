@@ -25,7 +25,7 @@ client.on('chat', function(packet) {
 });
 */
 const server = {
-  ip:'vanilland.serverminer.com',
+  ip:auth.ip,
   port:14654
 }
 const prefix = "?";
